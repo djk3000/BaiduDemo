@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8E590FE7D7A8C25AFFE047 /* Pods_BaiduDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9A00BF3AEF33776D808227 /* Pods_BaiduDemo.framework */; };
+		FB54D26F299397ED0038FBC9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54D26D299397ED0038FBC9 /* MapView.swift */; };
+		FB54D270299397ED0038FBC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54D26E299397ED0038FBC9 /* MapViewController.swift */; };
+		FB5B65EA29938A08004FEE03 /* BaiduDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B65E929938A08004FEE03 /* BaiduDemoApp.swift */; };
+		FB5B65EC29938A08004FEE03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B65EB29938A08004FEE03 /* ContentView.swift */; };
+		FB5B65EE29938A09004FEE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5B65ED29938A09004FEE03 /* Assets.xcassets */; };
+		FB5B65F129938A09004FEE03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5B65F029938A09004FEE03 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16BF254E1957683A080BF3D8 /* Pods-BaiduDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduDemo.release.xcconfig"; path = "Target Support Files/Pods-BaiduDemo/Pods-BaiduDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2F9A00BF3AEF33776D808227 /* Pods_BaiduDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiduDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC354047830290828F94134 /* Pods-BaiduDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduDemo.debug.xcconfig"; path = "Target Support Files/Pods-BaiduDemo/Pods-BaiduDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB54D26A29938CEB0038FBC9 /* BaiduDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		FB54D26D299397ED0038FBC9 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FB54D26E299397ED0038FBC9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FB54D27129939ACC0038FBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB5B65E629938A08004FEE03 /* BaiduDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5B65E929938A08004FEE03 /* BaiduDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduDemoApp.swift; sourceTree = "<group>"; };
+		FB5B65EB29938A08004FEE03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB5B65ED29938A09004FEE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5B65F029938A09004FEE03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5B65E329938A08004FEE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8E590FE7D7A8C25AFFE047 /* Pods_BaiduDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4BE33310D76AD5E92B31FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F9A00BF3AEF33776D808227 /* Pods_BaiduDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69FCE06735994EBB45305A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEC354047830290828F94134 /* Pods-BaiduDemo.debug.xcconfig */,
+				16BF254E1957683A080BF3D8 /* Pods-BaiduDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB54D26B299390F40038FBC9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FB54D26D299397ED0038FBC9 /* MapView.swift */,
+				FB54D26E299397ED0038FBC9 /* MapViewController.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		FB5B65DD29938A08004FEE03 = {
+			isa = PBXGroup;
+			children = (
+				FB5B65E829938A08004FEE03 /* BaiduDemo */,
+				FB5B65E729938A08004FEE03 /* Products */,
+				F69FCE06735994EBB45305A2 /* Pods */,
+				0B4BE33310D76AD5E92B31FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5B65E729938A08004FEE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B65E629938A08004FEE03 /* BaiduDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5B65E829938A08004FEE03 /* BaiduDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB54D27129939ACC0038FBC9 /* Info.plist */,
+				FB54D26B299390F40038FBC9 /* Component */,
+				FB54D26A29938CEB0038FBC9 /* BaiduDemo-Bridging-Header.h */,
+				FB5B65E929938A08004FEE03 /* BaiduDemoApp.swift */,
+				FB5B65EB29938A08004FEE03 /* ContentView.swift */,
+				FB5B65ED29938A09004FEE03 /* Assets.xcassets */,
+				FB5B65EF29938A09004FEE03 /* Preview Content */,
+			);
+			path = BaiduDemo;
+			sourceTree = "<group>";
+		};
+		FB5B65EF29938A09004FEE03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B65F029938A09004FEE03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5B65E529938A08004FEE03 /* BaiduDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5B65F429938A09004FEE03 /* Build configuration list for PBXNativeTarget "BaiduDemo" */;
+			buildPhases = (
+				EFF1D9E3BF8770DE63FB5265 /* [CP] Check Pods Manifest.lock */,
+				FB5B65E229938A08004FEE03 /* Sources */,
+				FB5B65E329938A08004FEE03 /* Frameworks */,
+				FB5B65E429938A08004FEE03 /* Resources */,
+				D0AF42BAE27DFAEBC47065ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduDemo;
+			productName = BaiduDemo;
+			productReference = FB5B65E629938A08004FEE03 /* BaiduDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5B65DE29938A08004FEE03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FB5B65E529938A08004FEE03 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FB5B65E129938A08004FEE03 /* Build configuration list for PBXProject "BaiduDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5B65DD29938A08004FEE03;
+			productRefGroup = FB5B65E729938A08004FEE03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5B65E529938A08004FEE03 /* BaiduDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5B65E429938A08004FEE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5B65F129938A09004FEE03 /* Preview Assets.xcassets in Resources */,
+				FB5B65EE29938A09004FEE03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0AF42BAE27DFAEBC47065ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduDemo/Pods-BaiduDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduDemo/Pods-BaiduDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaiduDemo/Pods-BaiduDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF1D9E3BF8770DE63FB5265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiduDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5B65E229938A08004FEE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5B65EC29938A08004FEE03 /* ContentView.swift in Sources */,
+				FB54D26F299397ED0038FBC9 /* MapView.swift in Sources */,
+				FB5B65EA29938A08004FEE03 /* BaiduDemoApp.swift in Sources */,
+				FB54D270299397ED0038FBC9 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB5B65F229938A09004FEE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB5B65F329938A09004FEE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5B65F529938A09004FEE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC354047830290828F94134 /* Pods-BaiduDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BaiduDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MZ6AGR4FJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaiduDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BaiduDemo;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "允许地图访问";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "允许地图访问";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shgbit.BaiduDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dengjingkun/DJKDemo/swiftui/BaiduDemo/BaiduDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5B65F629938A09004FEE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BF254E1957683A080BF3D8 /* Pods-BaiduDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BaiduDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MZ6AGR4FJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaiduDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BaiduDemo;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "允许地图访问";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "允许地图访问";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shgbit.BaiduDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dengjingkun/DJKDemo/swiftui/BaiduDemo/BaiduDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5B65E129938A08004FEE03 /* Build configuration list for PBXProject "BaiduDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5B65F229938A09004FEE03 /* Debug */,
+				FB5B65F329938A09004FEE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5B65F429938A09004FEE03 /* Build configuration list for PBXNativeTarget "BaiduDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5B65F529938A09004FEE03 /* Debug */,
+				FB5B65F629938A09004FEE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5B65DE29938A08004FEE03 /* Project object */;
+}
